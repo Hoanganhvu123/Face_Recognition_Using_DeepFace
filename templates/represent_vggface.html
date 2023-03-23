@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+    </head>
+    <style type="text/css">
+        .container{
+            background-image: url('deep.jpg');
+            margin: auto;
+            background-size: 1480px 800px;
+            background-repeat: no-repeat;
+        }
+    </style>
+    <body class = 'container'>    
+        <center>
+        
+        <h2><font size="7px">Using VGGFace<br>For embedding image</font></h2><br><br><br>
+        
+            
+
+        <form method="POST" action="/represent/vggface/encoding" enctype="multipart/form-data">
+            <input type="file" name='image'><br><br><br>
+            <input type="submit">
+        </form>
+
+    </center>
+
+    </body>
+</html>
